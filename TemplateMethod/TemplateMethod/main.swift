@@ -9,7 +9,7 @@
 import Foundation
 
 //测试案例
-let computer = NationalComputer()
+let computer = UserComputer()
 
 computer.startup()
 
