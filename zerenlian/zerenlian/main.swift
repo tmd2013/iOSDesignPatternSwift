@@ -33,6 +33,18 @@ func test2() {
     handler1.handleRequest(request: request2)
 }
 
+func test3(){
+    let handler1 = FF_GroupLeader()
+    
+    let handler2 = FF_ManagerLeader()
+    let handler3 = FF_Boss()
+    handler1.nextLeader = handler2
+    handler2.nextLeader = handler3
+    let expenseAccount = FF_ExpenseAccount(title: "蛤", money: 99999, body: "车费")
+    
+    handler1.handleExpense(expense: expenseAccount)
+}
 
-test2()
+
+test3()
 

@@ -19,6 +19,11 @@
 		21262FCD1EEA4C1200DFBC2D /* FF_AbsConcreteHandler3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21262FCC1EEA4C1200DFBC2D /* FF_AbsConcreteHandler3.swift */; };
 		21262FCF1EEA4C3400DFBC2D /* FF_ConcreteRequest2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21262FCE1EEA4C3400DFBC2D /* FF_ConcreteRequest2.swift */; };
 		21262FD11EEA4C5400DFBC2D /* FF_ConcreteRequest3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21262FD01EEA4C5400DFBC2D /* FF_ConcreteRequest3.swift */; };
+		21262FD41EEA812500DFBC2D /* FF_Leader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21262FD31EEA812500DFBC2D /* FF_Leader.swift */; };
+		21262FD61EEA813E00DFBC2D /* FF_ExpenseAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21262FD51EEA813E00DFBC2D /* FF_ExpenseAccount.swift */; };
+		21262FD91EEA85BA00DFBC2D /* FF_GroupLeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21262FD81EEA85BA00DFBC2D /* FF_GroupLeader.swift */; };
+		21262FDB1EEA861000DFBC2D /* FF_ManagerLeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21262FDA1EEA861000DFBC2D /* FF_ManagerLeader.swift */; };
+		21262FDD1EEA865000DFBC2D /* FF_Boss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21262FDC1EEA865000DFBC2D /* FF_Boss.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +52,11 @@
 		21262FCC1EEA4C1200DFBC2D /* FF_AbsConcreteHandler3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_AbsConcreteHandler3.swift; sourceTree = "<group>"; };
 		21262FCE1EEA4C3400DFBC2D /* FF_ConcreteRequest2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_ConcreteRequest2.swift; sourceTree = "<group>"; };
 		21262FD01EEA4C5400DFBC2D /* FF_ConcreteRequest3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_ConcreteRequest3.swift; sourceTree = "<group>"; };
+		21262FD31EEA812500DFBC2D /* FF_Leader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_Leader.swift; sourceTree = "<group>"; };
+		21262FD51EEA813E00DFBC2D /* FF_ExpenseAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_ExpenseAccount.swift; sourceTree = "<group>"; };
+		21262FD81EEA85BA00DFBC2D /* FF_GroupLeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_GroupLeader.swift; sourceTree = "<group>"; };
+		21262FDA1EEA861000DFBC2D /* FF_ManagerLeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_ManagerLeader.swift; sourceTree = "<group>"; };
+		21262FDC1EEA865000DFBC2D /* FF_Boss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_Boss.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,7 @@
 		21262FB11EEA36D600DFBC2D /* zerenlian */ = {
 			isa = PBXGroup;
 			children = (
+				21262FD21EEA80EF00DFBC2D /* Simple3 */,
 				21262FC01EEA43C800DFBC2D /* Simple2 */,
 				21262FB91EEA370200DFBC2D /* Simple1 */,
 				21262FB21EEA36D600DFBC2D /* main.swift */,
@@ -115,6 +126,26 @@
 				21262FCC1EEA4C1200DFBC2D /* FF_AbsConcreteHandler3.swift */,
 				21262FCE1EEA4C3400DFBC2D /* FF_ConcreteRequest2.swift */,
 				21262FD01EEA4C5400DFBC2D /* FF_ConcreteRequest3.swift */,
+			);
+			path = impl;
+			sourceTree = "<group>";
+		};
+		21262FD21EEA80EF00DFBC2D /* Simple3 */ = {
+			isa = PBXGroup;
+			children = (
+				21262FD71EEA838B00DFBC2D /* impl */,
+				21262FD31EEA812500DFBC2D /* FF_Leader.swift */,
+				21262FD51EEA813E00DFBC2D /* FF_ExpenseAccount.swift */,
+			);
+			path = Simple3;
+			sourceTree = "<group>";
+		};
+		21262FD71EEA838B00DFBC2D /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				21262FD81EEA85BA00DFBC2D /* FF_GroupLeader.swift */,
+				21262FDA1EEA861000DFBC2D /* FF_ManagerLeader.swift */,
+				21262FDC1EEA865000DFBC2D /* FF_Boss.swift */,
 			);
 			path = impl;
 			sourceTree = "<group>";
@@ -182,13 +213,18 @@
 				21262FCD1EEA4C1200DFBC2D /* FF_AbsConcreteHandler3.swift in Sources */,
 				21262FBB1EEA374200DFBC2D /* FF_Handler.swift in Sources */,
 				21262FC21EEA43F300DFBC2D /* FF_AbsHandler.swift in Sources */,
+				21262FDD1EEA865000DFBC2D /* FF_Boss.swift in Sources */,
+				21262FD91EEA85BA00DFBC2D /* FF_GroupLeader.swift in Sources */,
+				21262FDB1EEA861000DFBC2D /* FF_ManagerLeader.swift in Sources */,
 				21262FB31EEA36D600DFBC2D /* main.swift in Sources */,
+				21262FD61EEA813E00DFBC2D /* FF_ExpenseAccount.swift in Sources */,
 				21262FCF1EEA4C3400DFBC2D /* FF_ConcreteRequest2.swift in Sources */,
 				21262FC71EEA4B5200DFBC2D /* FF_AbsConcreteHandler1.swift in Sources */,
 				21262FC91EEA4BBE00DFBC2D /* FF_ConcreteRequest1.swift in Sources */,
 				21262FCB1EEA4BE700DFBC2D /* FF_AbsConcreteHandler2.swift in Sources */,
 				21262FBF1EEA38AB00DFBC2D /* FF_ConcreteHandler2.swift in Sources */,
 				21262FC41EEA49F600DFBC2D /* FF_AbsRequest.swift in Sources */,
+				21262FD41EEA812500DFBC2D /* FF_Leader.swift in Sources */,
 				21262FD11EEA4C5400DFBC2D /* FF_ConcreteRequest3.swift in Sources */,
 				21262FBD1EEA37E900DFBC2D /* FF_ConcreteHandler1.swift in Sources */,
 			);
