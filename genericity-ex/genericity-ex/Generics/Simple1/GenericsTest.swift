@@ -4,7 +4,7 @@
 //
 //  Created by ffwang on 2017/6/9.
 //  Copyright © 2017年 ffwang. All rights reserved.
-//
+//  方法泛型
 
 import Cocoa
 

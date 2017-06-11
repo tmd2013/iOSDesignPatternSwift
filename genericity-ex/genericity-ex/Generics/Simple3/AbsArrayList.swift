@@ -1,16 +1,16 @@
 //
-//  ArrayList.swift
+//  AbsArrayList.swift
 //  genericity-ex
 //
-//  Created by ffwang on 2017/6/9.
+//  Created by ffwang on 2017/6/11.
 //  Copyright © 2017年 ffwang. All rights reserved.
-//  类泛型
+//  继承泛型
 
 import Cocoa
 
-class ArrayList<T> {
+class AbsArrayList<T>: NSObject {
     //array数值
-    private var array = Array<T>()
+    var array = Array<T>()
     
     //添加元素
     func add(obj:T) {
@@ -33,3 +33,9 @@ class ArrayList<T> {
         }
     }
 }
+
+//extension AbsArrayList{
+//    func removeAll() {
+//        self.array.removeAll()
+//    }
+//}
