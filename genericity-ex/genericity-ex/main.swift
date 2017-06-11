@@ -51,14 +51,15 @@ func test4() {
 
 func test5() {
     let array = FF_ModelArray<BaseModel>()
-    let user1 = User()
-    user1.username = "aaaa"
-    user1.password = "1234"
-    array.add(obj: user1)
-    let user2 = User()
-    user2.username = "bbbb"
-    user2.password = "123www4"
-    array.add(obj: user2)
+//    let user1 = User()
+//    user1.username = "aaaa"
+//    user1.password = "1234"
+//    array.add(obj: user1)
+//    let user2 = User()
+//    user2.username = "bbbb"
+//    user2.password = "123www4"
+    array.add(obj: User(username: "aaa",password: "bbbb"))
+    array.add(obj: User(username: "bbb",password: "1234"))
     array.forEach()
 
 }
@@ -73,4 +74,4 @@ func test6() {
 
 
 
-test6()
+test5()

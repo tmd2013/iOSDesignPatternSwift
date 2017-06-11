@@ -11,12 +11,12 @@ import Cocoa
 class User: BaseModel {
     var password : String?
     
-//    init(usrname:String,password:String) {
-//        super.init()
-//        self.username = username
-//        
-//        print("\(String(describing: username))")
-//        self.password = password
-//        print("\(String(describing: self.password))")
-//    }
+    init(username:String,password:String) {
+        super.init()
+        self.username = username
+        
+        print("\(String(describing: username))")
+        self.password = password
+        print("\(String(describing: self.password))")
+    }
 }
