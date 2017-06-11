@@ -17,6 +17,7 @@
 		214A14BD1EECD7FD00BB569B /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A14BC1EECD7FD00BB569B /* BaseModel.swift */; };
 		214A14BF1EECD84100BB569B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A14BE1EECD84100BB569B /* User.swift */; };
 		214A14C11EECD87600BB569B /* FF_ModelArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A14C01EECD87600BB569B /* FF_ModelArray.swift */; };
+		214A14C41EED158F00BB569B /* UserWhere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214A14C31EED158F00BB569B /* UserWhere.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		214A14BC1EECD7FD00BB569B /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		214A14BE1EECD84100BB569B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		214A14C01EECD87600BB569B /* FF_ModelArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_ModelArray.swift; sourceTree = "<group>"; };
+		214A14C31EED158F00BB569B /* UserWhere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserWhere.swift; path = Simple6/UserWhere.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		21262FF11EEA974900DFBC2D /* Generics */ = {
 			isa = PBXGroup;
 			children = (
+				214A14C21EED151D00BB569B /* Simple6 */,
 				214A14B81EECD7B000BB569B /* Simple5 */,
 				214A14B31EECD2ED00BB569B /* Simple4 */,
 				214A14AE1EECCE8B00BB569B /* Simple3 */,
@@ -143,6 +146,14 @@
 				214A14BE1EECD84100BB569B /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		214A14C21EED151D00BB569B /* Simple6 */ = {
+			isa = PBXGroup;
+			children = (
+				214A14C31EED158F00BB569B /* UserWhere.swift */,
+			);
+			name = Simple6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 				214A14B21EECD08D00BB569B /* FF_ArrayList.swift in Sources */,
 				214A14C11EECD87600BB569B /* FF_ModelArray.swift in Sources */,
 				214A14BD1EECD7FD00BB569B /* BaseModel.swift in Sources */,
+				214A14C41EED158F00BB569B /* UserWhere.swift in Sources */,
 				214A14B51EECD31D00BB569B /* FF_IArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

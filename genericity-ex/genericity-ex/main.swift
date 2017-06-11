@@ -63,5 +63,14 @@ func test5() {
 
 }
 
+func test6() {
+    let stu1 = StudentModel()
+    stu1.age = 5
+    let stu2 = StudentModel()
+    stu2.age = 5
+    UserWhere .change(a: stu1, b: stu2)
+}
 
-test5()
+
+
+test6()
