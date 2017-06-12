@@ -9,5 +9,11 @@
 import UIKit
 
 protocol FF_AggregateProtocol {
-
+    associatedtype DataType
+    //添加元素
+    func add(obj:DataType)
+    //删除元素
+    func remove(index:Int)
+    //获取迭代器
+    func iterator() -> FF_AnyIterator<DataType>
 }

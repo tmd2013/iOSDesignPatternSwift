@@ -18,6 +18,7 @@
 		216CDC911EEE31A7005A78B2 /* FF_AnyIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CDC901EEE31A7005A78B2 /* FF_AnyIterator.swift */; };
 		216CDC931EEE31E7005A78B2 /* FF_ConcreteIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CDC921EEE31E7005A78B2 /* FF_ConcreteIterator.swift */; };
 		216CDC951EEE3384005A78B2 /* FF_AggregateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CDC941EEE3384005A78B2 /* FF_AggregateProtocol.swift */; };
+		216CDC971EEE3462005A78B2 /* FF_ConcreteAggegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216CDC961EEE3462005A78B2 /* FF_ConcreteAggegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		216CDC901EEE31A7005A78B2 /* FF_AnyIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_AnyIterator.swift; sourceTree = "<group>"; };
 		216CDC921EEE31E7005A78B2 /* FF_ConcreteIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_ConcreteIterator.swift; sourceTree = "<group>"; };
 		216CDC941EEE3384005A78B2 /* FF_AggregateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_AggregateProtocol.swift; sourceTree = "<group>"; };
+		216CDC961EEE3462005A78B2 /* FF_ConcreteAggegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_ConcreteAggegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				216CDC901EEE31A7005A78B2 /* FF_AnyIterator.swift */,
 				216CDC921EEE31E7005A78B2 /* FF_ConcreteIterator.swift */,
 				216CDC941EEE3384005A78B2 /* FF_AggregateProtocol.swift */,
+				216CDC961EEE3462005A78B2 /* FF_ConcreteAggegate.swift */,
 			);
 			path = Simple1;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			files = (
 				216CDC911EEE31A7005A78B2 /* FF_AnyIterator.swift in Sources */,
 				216CDC931EEE31E7005A78B2 /* FF_ConcreteIterator.swift in Sources */,
+				216CDC971EEE3462005A78B2 /* FF_ConcreteAggegate.swift in Sources */,
 				216CDC621EEE3115005A78B2 /* ViewController.swift in Sources */,
 				216CDC601EEE3115005A78B2 /* AppDelegate.swift in Sources */,
 				216CDC8F1EEE317F005A78B2 /* FF_IteratorProtocol.swift in Sources */,
