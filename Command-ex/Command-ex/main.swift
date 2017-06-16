@@ -20,7 +20,21 @@ func testSimple1() {
     invoker.shutdown()
 }
 
+func testSimple2() {
+    let tm = FF_TetrisMachine()
+    
+    let leftCommand = FF_TMLeftCommand(tm: tm)
+    let rightCommand = FF_TMRightCommand(tm: tm)
+    let buttomCommand = FF_TMButtomCommand(tm: tm)
+    let transformCommand = FF_TMTransformCommand(tm: tm)
+    let button = Buttons_2(leftCommand: leftCommand, rightCommand: rightCommand, buttomCommand: buttomCommand, transformCommand: transformCommand)
+    button.toLeft()
+    button.toRight()
+    button.fastToButtom()
+    button.transform()
+}
 
+testSimple2()
 
 
 

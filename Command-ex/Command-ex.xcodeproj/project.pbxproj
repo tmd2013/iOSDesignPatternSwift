@@ -13,6 +13,13 @@
 		21B45D4D1EF0DDDA003AED10 /* FF_MacStartupCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B45D4C1EF0DDDA003AED10 /* FF_MacStartupCommand.swift */; };
 		21B45D4F1EF0DE74003AED10 /* FF_MacShutdownCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B45D4E1EF0DE74003AED10 /* FF_MacShutdownCommand.swift */; };
 		21B45D511EF0DEBD003AED10 /* FF_MacInvoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B45D501EF0DEBD003AED10 /* FF_MacInvoker.swift */; };
+		21FE64061EF37B7600E52F25 /* FF_TetrisMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FE64051EF37B7600E52F25 /* FF_TetrisMachine.swift */; };
+		21FE64081EF37BD300E52F25 /* FF_TMCommandProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FE64071EF37BD300E52F25 /* FF_TMCommandProtocol.swift */; };
+		21FE640A1EF37C1200E52F25 /* FF_TMLeftCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FE64091EF37C1200E52F25 /* FF_TMLeftCommand.swift */; };
+		21FE640C1EF37D4200E52F25 /* FF_TMRightCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FE640B1EF37D4200E52F25 /* FF_TMRightCommand.swift */; };
+		21FE640E1EF37D6D00E52F25 /* FF_TMButtomCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FE640D1EF37D6D00E52F25 /* FF_TMButtomCommand.swift */; };
+		21FE64101EF37DB800E52F25 /* FF_TMTransformCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FE640F1EF37DB800E52F25 /* FF_TMTransformCommand.swift */; };
+		21FE64121EF37DEB00E52F25 /* Buttons_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FE64111EF37DEB00E52F25 /* Buttons_2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +42,13 @@
 		21B45D4C1EF0DDDA003AED10 /* FF_MacStartupCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_MacStartupCommand.swift; sourceTree = "<group>"; };
 		21B45D4E1EF0DE74003AED10 /* FF_MacShutdownCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_MacShutdownCommand.swift; sourceTree = "<group>"; };
 		21B45D501EF0DEBD003AED10 /* FF_MacInvoker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_MacInvoker.swift; sourceTree = "<group>"; };
+		21FE64051EF37B7600E52F25 /* FF_TetrisMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_TetrisMachine.swift; sourceTree = "<group>"; };
+		21FE64071EF37BD300E52F25 /* FF_TMCommandProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_TMCommandProtocol.swift; sourceTree = "<group>"; };
+		21FE64091EF37C1200E52F25 /* FF_TMLeftCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_TMLeftCommand.swift; sourceTree = "<group>"; };
+		21FE640B1EF37D4200E52F25 /* FF_TMRightCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_TMRightCommand.swift; sourceTree = "<group>"; };
+		21FE640D1EF37D6D00E52F25 /* FF_TMButtomCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_TMButtomCommand.swift; sourceTree = "<group>"; };
+		21FE640F1EF37DB800E52F25 /* FF_TMTransformCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_TMTransformCommand.swift; sourceTree = "<group>"; };
+		21FE64111EF37DEB00E52F25 /* Buttons_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons_2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +81,7 @@
 		2158151F1EEF7F5400AA3F43 /* Command-ex */ = {
 			isa = PBXGroup;
 			children = (
+				21FE64041EF37B0600E52F25 /* Simple2 */,
 				215815271EEF7FA900AA3F43 /* Simple1 */,
 				215815201EEF7F5400AA3F43 /* main.swift */,
 			);
@@ -83,6 +98,20 @@
 				21B45D501EF0DEBD003AED10 /* FF_MacInvoker.swift */,
 			);
 			path = Simple1;
+			sourceTree = "<group>";
+		};
+		21FE64041EF37B0600E52F25 /* Simple2 */ = {
+			isa = PBXGroup;
+			children = (
+				21FE64051EF37B7600E52F25 /* FF_TetrisMachine.swift */,
+				21FE64071EF37BD300E52F25 /* FF_TMCommandProtocol.swift */,
+				21FE64091EF37C1200E52F25 /* FF_TMLeftCommand.swift */,
+				21FE640B1EF37D4200E52F25 /* FF_TMRightCommand.swift */,
+				21FE640D1EF37D6D00E52F25 /* FF_TMButtomCommand.swift */,
+				21FE640F1EF37DB800E52F25 /* FF_TMTransformCommand.swift */,
+				21FE64111EF37DEB00E52F25 /* Buttons_2.swift */,
+			);
+			path = Simple2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,10 +176,17 @@
 			files = (
 				21B45D491EF0DCF2003AED10 /* FF_MacComputer.swift in Sources */,
 				215815211EEF7F5400AA3F43 /* main.swift in Sources */,
+				21FE64081EF37BD300E52F25 /* FF_TMCommandProtocol.swift in Sources */,
 				21B45D4B1EF0DDA3003AED10 /* FF_ComputerCommand.swift in Sources */,
+				21FE64121EF37DEB00E52F25 /* Buttons_2.swift in Sources */,
+				21FE64061EF37B7600E52F25 /* FF_TetrisMachine.swift in Sources */,
+				21FE64101EF37DB800E52F25 /* FF_TMTransformCommand.swift in Sources */,
+				21FE640E1EF37D6D00E52F25 /* FF_TMButtomCommand.swift in Sources */,
 				21B45D4F1EF0DE74003AED10 /* FF_MacShutdownCommand.swift in Sources */,
+				21FE640A1EF37C1200E52F25 /* FF_TMLeftCommand.swift in Sources */,
 				21B45D511EF0DEBD003AED10 /* FF_MacInvoker.swift in Sources */,
 				21B45D4D1EF0DDDA003AED10 /* FF_MacStartupCommand.swift in Sources */,
+				21FE640C1EF37D4200E52F25 /* FF_TMRightCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
