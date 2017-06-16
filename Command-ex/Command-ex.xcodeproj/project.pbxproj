@@ -20,6 +20,7 @@
 		21FE640E1EF37D6D00E52F25 /* FF_TMButtomCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FE640D1EF37D6D00E52F25 /* FF_TMButtomCommand.swift */; };
 		21FE64101EF37DB800E52F25 /* FF_TMTransformCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FE640F1EF37DB800E52F25 /* FF_TMTransformCommand.swift */; };
 		21FE64121EF37DEB00E52F25 /* Buttons_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FE64111EF37DEB00E52F25 /* Buttons_2.swift */; };
+		21FE64151EF381A700E52F25 /* Buttons_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FE64141EF381A700E52F25 /* Buttons_3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,7 @@
 		21FE640D1EF37D6D00E52F25 /* FF_TMButtomCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_TMButtomCommand.swift; sourceTree = "<group>"; };
 		21FE640F1EF37DB800E52F25 /* FF_TMTransformCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FF_TMTransformCommand.swift; sourceTree = "<group>"; };
 		21FE64111EF37DEB00E52F25 /* Buttons_2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons_2.swift; sourceTree = "<group>"; };
+		21FE64141EF381A700E52F25 /* Buttons_3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons_3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		2158151F1EEF7F5400AA3F43 /* Command-ex */ = {
 			isa = PBXGroup;
 			children = (
+				21FE64131EF3818900E52F25 /* Simple3 */,
 				21FE64041EF37B0600E52F25 /* Simple2 */,
 				215815271EEF7FA900AA3F43 /* Simple1 */,
 				215815201EEF7F5400AA3F43 /* main.swift */,
@@ -112,6 +115,14 @@
 				21FE64111EF37DEB00E52F25 /* Buttons_2.swift */,
 			);
 			path = Simple2;
+			sourceTree = "<group>";
+		};
+		21FE64131EF3818900E52F25 /* Simple3 */ = {
+			isa = PBXGroup;
+			children = (
+				21FE64141EF381A700E52F25 /* Buttons_3.swift */,
+			);
+			path = Simple3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21B45D491EF0DCF2003AED10 /* FF_MacComputer.swift in Sources */,
+				21FE64151EF381A700E52F25 /* Buttons_3.swift in Sources */,
 				215815211EEF7F5400AA3F43 /* main.swift in Sources */,
 				21FE64081EF37BD300E52F25 /* FF_TMCommandProtocol.swift in Sources */,
 				21B45D4B1EF0DDA3003AED10 /* FF_ComputerCommand.swift in Sources */,

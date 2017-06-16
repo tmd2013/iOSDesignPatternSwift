@@ -34,7 +34,23 @@ func testSimple2() {
     button.transform()
 }
 
-testSimple2()
+func testSimple3() {
+    let tm = FF_TetrisMachine()
+    
+    let leftCommand = FF_TMLeftCommand(tm: tm)
+    let rightCommand = FF_TMRightCommand(tm: tm)
+    let buttomCommand = FF_TMButtomCommand(tm: tm)
+    let transformCommand = FF_TMTransformCommand(tm: tm)
+    let button = Buttons_3(tm: tm,leftCommand: leftCommand, rightCommand: rightCommand, buttomCommand: buttomCommand, transformCommand: transformCommand)
+    button.toLeft()
+    button.toRight()
+    button.fastToButtom()
+    button.transform()
+    
+    button.recover()
+}
+
+testSimple3()
 
 
 
