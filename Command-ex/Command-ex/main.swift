@@ -63,8 +63,25 @@ func testSimple4() {
     
 }
 
+func testSimple6() {
+    let tm = FF_TetrisMachine()
+    
+    //请求者
+    let invoker = Buttons_6(tm: tm)
+    invoker.toRight()
+    //transform这个操作：错误
+    invoker.transform()
+    //撤销transform操作
+    
+    invoker.undo()
+    
+}
 
-testSimple4()
+
+
+
+
+testSimple6()
 
 
 
