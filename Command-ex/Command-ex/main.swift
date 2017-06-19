@@ -50,7 +50,21 @@ func testSimple3() {
     button.recover()
 }
 
-testSimple3()
+func testSimple4() {
+    let tm = FF_TetrisMachine()
+    
+    let invoker = Buttons_4(tm: tm)
+    
+    invoker.toRight()
+    
+    invoker.transform()
+    
+    invoker.undo()
+    
+}
+
+
+testSimple4()
 
 
 
