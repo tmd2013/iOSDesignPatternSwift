@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		214B81041EFA31FE00BC56FD /* Buttons_7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B81031EFA31FE00BC56FD /* Buttons_7.swift */; };
+		214B81071EFA484000BC56FD /* Buttons_8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214B81061EFA484000BC56FD /* Buttons_8.swift */; };
 		215815211EEF7F5400AA3F43 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215815201EEF7F5400AA3F43 /* main.swift */; };
 		217F3E401EF7C45E007138CF /* FF_WrapperCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217F3E3F1EF7C45E007138CF /* FF_WrapperCommand.swift */; };
 		217F3E421EF7C4AE007138CF /* Buttons_5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217F3E411EF7C4AE007138CF /* Buttons_5.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		214B81031EFA31FE00BC56FD /* Buttons_7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons_7.swift; sourceTree = "<group>"; };
+		214B81061EFA484000BC56FD /* Buttons_8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons_8.swift; sourceTree = "<group>"; };
 		2158151D1EEF7F5400AA3F43 /* Command-ex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Command-ex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		215815201EEF7F5400AA3F43 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		217F3E3F1EF7C45E007138CF /* FF_WrapperCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FF_WrapperCommand.swift; path = Simple5/FF_WrapperCommand.swift; sourceTree = "<group>"; };
@@ -86,6 +88,14 @@
 			path = Simple7;
 			sourceTree = "<group>";
 		};
+		214B81051EFA481700BC56FD /* Simple8 */ = {
+			isa = PBXGroup;
+			children = (
+				214B81061EFA484000BC56FD /* Buttons_8.swift */,
+			);
+			path = Simple8;
+			sourceTree = "<group>";
+		};
 		215815141EEF7F5400AA3F43 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +115,7 @@
 		2158151F1EEF7F5400AA3F43 /* Command-ex */ = {
 			isa = PBXGroup;
 			children = (
+				214B81051EFA481700BC56FD /* Simple8 */,
 				214B81021EFA317E00BC56FD /* Simple7 */,
 				217F3E431EF7C809007138CF /* Simple6 */,
 				217F3E3E1EF7C414007138CF /* Simple5 */,
@@ -250,6 +261,7 @@
 				21FE64121EF37DEB00E52F25 /* Buttons_2.swift in Sources */,
 				217F3E401EF7C45E007138CF /* FF_WrapperCommand.swift in Sources */,
 				21FE64061EF37B7600E52F25 /* FF_TetrisMachine.swift in Sources */,
+				214B81071EFA484000BC56FD /* Buttons_8.swift in Sources */,
 				214B81041EFA31FE00BC56FD /* Buttons_7.swift in Sources */,
 				217F3E451EF7C832007138CF /* FF_GenericsCommand.swift in Sources */,
 				21FE64101EF37DB800E52F25 /* FF_TMTransformCommand.swift in Sources */,
